@@ -241,14 +241,16 @@ body {
 }
 .container .illustrationImg {
     position: absolute;
-    left: 6.875rem;
+    left: 6.900rem;
     width: 90%;
-    height: 31rem;
-    margin-top: -5rem;
+    height: 33rem;
+    margin-top: -3rem;
     z-index: -1;
 }
 .TS-logoImg {
-   width: 30%;  
+   width: 30%;
+   margin-top: 2rem;  
+   margin-left: 2rem;
 }
 .cards {
     display: grid;
