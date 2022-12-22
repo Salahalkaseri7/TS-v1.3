@@ -226,7 +226,7 @@ body {
     width: 300vw;
     height: 801vw;
     border-radius: 50%;
-    background: #0b4ea4;
+    background: #2579e4;
     z-index: -1;
     pointer-events: none;
 }
@@ -241,27 +241,14 @@ body {
 }
 .container .illustrationImg {
     position: absolute;
-    top: -2%;
-    left: 26.125rem;
+    left: 6.875rem;
     width: 90%;
-    height:39.375rem;
+    height: 31rem;
+    margin-top: -5rem;
     z-index: -1;
 }
-.container .TS-logoImg {
-    position: relative;
-    top:8vh;
-    left:0.9rem;
-    width: 40%;
-    height: 1.79rem;
-    z-index: -1;
-}
-.container .TS1-logoImg {
-    position: absolute;
-    top: 6%;
-    left: -1.75rem;
-    width: 35%;
-    height: 19.188rem;
-    z-index: -1;
+.TS-logoImg {
+   width: 30%;  
 }
 .cards {
     display: grid;
