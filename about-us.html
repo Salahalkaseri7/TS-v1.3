@@ -166,7 +166,6 @@ html{
   padding: var(--spacing-xxl) var(--spacing-l);
   height: fit-content;
 }
-
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -265,6 +264,29 @@ button{
     transition: .5s;
     cursor: pointer;
   }
+  #btext{
+   display: inline-block;
+   padding-left: 2rem;
+    margin: 9rem auto;
+  }
+  #bh3{
+    margin:-8rem 4rem auto 4rem;
+  }
+  #bdt{
+    margin-top: 1rem;
+  }
+  #tdb{
+    display: block;
+    margin: 1rem auto;
+  }
+  #qtext{
+    display: inline-block;
+    margin: 8rem auto;
+  }
+  #vtn{
+    position: relative;
+    margin:64rem 13rem auto;
+  }
 </style>
 </head>
 <body>
@@ -291,7 +313,7 @@ button{
             the entered message of a person will be measured or analyzed through the software.</b></p>
             <br>
             <br>
-        <h3 class="card__heading">About-ME/ QuickTest</h3>
+        <h3 class="card__heading">QuickTest</h3>
       </div>
     </a>
     <a class="card" href="#">
@@ -309,7 +331,7 @@ button{
                 you have to type that words before the drop in container if failed then game over!</b></p>
                 <br>
                 <br>
-        <h3 class="card__heading">About-ME/ Tris game</h3>
+        <h3 class="card__heading">Tris game</h3>
       </div>
     </a>
     <a class="card" href="#">
@@ -328,25 +350,47 @@ button{
             <br>
             <b>A history section where you can check the previous typing test result by date and time.</b></p>
             <br>
-            <br>
-        <h3 class="card__heading">About-ME/ History Section</h3>
+        <h3 class="card__heading">History Section</h3>
       </div>
     </li>
     <a class="card" href="#">
-      <div class="card__background" style="background-image: url(img/bg1233.webp)"></div>
+      <div class="card__background" style="background-image: url(img/bg442.jpg)"></div>
       <div class="card__content">
         <p class="card__category" style="font-family: 'Courier New', Courier, monospace;">
           <br>
           <br>
           <br>
           <br>
-          <b> Hello! Interestingly, I have been a student of Poly Technic Computer branch and got introduced to programming in my Third Sem of year And At MGM'S college of Engineering, Nanded. Since then, I started developing Android Apps And Web Projects and pursuing my Bachelors in Computer Science and Engineering.
-            Today, I'm currently working on Self Projects and on the way of my roadmap to become a fullstack DEV.</b>
+          <b id="btext"> Chat_Bot will help u and provide some better ways to enhance your typing speed & also u can chat or use voice speech with bot for fun!</b>
         </p>
-        <h3 class="card__heading">About-ME/ Developer(ME)</h3>
+        <h3 id="bh3" class="card__heading">Chat_Bot</h3>
       </div>
     </a>
-    <button class="glow-on-hover" type="button"
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(img/bg1233.webp)"></div>
+      <div class="card__content">
+        <p class="card__category" style="font-family: 'Courier New', Courier, monospace;">
+          <b id="qtext">Questionnaire will provide the optimized solution by asking some questions related to your typing!</b>
+        </p>
+        <h3 class="card__heading">Questionnaire</h3>
+      </div>
+    </a>
+    <a class="card" href="#">
+      <div class="card__background" style="background-image: url(img/bg4432.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category" style="font-family: 'Courier New', Courier, monospace;">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <b id="tdb" style="color: #111; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Hello! Interestingly, I have been a student of Poly Technic Computer branch and got introduced to programming in my Third Sem of year And At MGM'S college of Engineering, Nanded. Since then, I started developing Android Apps And Web Projects and pursuing my Bachelors in Computer Science and Engineering.
+            Today, I'm currently working on Self Projects and on the way of my roadmap to become a fullstack DEV.</b>
+        </p>
+        <h3 id="bdt" class="card__heading">Developer(ME)</h3>
+      </div>
+    </a>
+    <button id="vtn" class="glow-on-hover" type="button"
 onclick="backtohome()">
 Back-To-Home</button>
 <script>
